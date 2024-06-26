@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.logo {
+  margin-left: 125px;
+  margin-top: 16px;
+  width: 133px;
+  height: 38px;
+}
+.navbar {
+  display: flex;
+}
+.navbar ul {
+  text-decoration: none;
+  margin-left: 191px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+.navbar ul li {
+  font-family: "Amiko", sans-serif;
+  list-style: none;
+  font-size: 24px;
+  text-decoration: none;
+  margin: 0 57px;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: grey;
+  /* text-shadow: 0px 0px 6px rgb(0, 0, 0); */
+}
+.fg--search {
+  background: white;
+  position: relative;
+  width: 300px;
+}
+.fg--search input {
+  font-size: 18px;
+  width: 100%;
+  padding: 4px 5px 8px 12px;
+  display: block;
+}
+.fg--search button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 18px 20px;
+  z-index: 2;
+}
+.form-group {
+  margin-left: 116px;
+  height: 4vh;
+  display: flex;
+}
+.form-group i {
+  font-size: 24px;
+  margin-left: 4px;
+  margin-top: 4px;
+  margin-right: 13px;
+}
+input {
+  border: none;
+}
+.searchbar {
+  border-radius: 7px;
+  display: flex;
+  border: 2px solid lightgray;
+}
+.shoppingcart {
+  width: 2vw;
+  border-radius: 7px;
+  border: 2px solid lightgray;
+  margin-left: 14px;
+  display: flex;
+}
+.username {
+  margin-left: 4px;
+}
+.midsection {
+  height: 76vh;
+  display: flex;
+  position: relative; /* Add this */
+}
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3; /* Reduce opacity */
+  z-index: -1; /* Place behind all other content */
+}
+.leftsection {
+  width: 27vw;
+  height: 101vh;
+}
+.leftsection img {
+  margin-left: 135px;
+  width: 217px;
+  margin-top: 227px;
+}
+.textleft {
+  width: 20vw;
+  margin-left: 139px;
+}
+.textleft h2 {
+  margin-top: 10px;
+  font-size: 52px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.textleft h4 {
+  /* font-weight: 100; */
+  font-family: "Amiko", sans-serif;
+  margin-top: 10px;
+}
+.textleft h2 span {
+  color: #ff8300;
+}
+.textleft button {
+  border: none;
+  border-radius: 39px;
+  font-size: 33px;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+.rightsection {
+  margin-left: 77px;
+}
+.rightsection img {
+  margin-left: 273px;
+  margin-top: 123px;
+  width: 942px;
+  height: 495px;
+}
+.orange {
+  display: flex;
+  background-color: #ff8807;
+  width: 100%;
+  height: 17vh;
+}
+.review img {
+  margin-top: 25px;
+  margin-left: 212px;
+  position: relative;
+}
